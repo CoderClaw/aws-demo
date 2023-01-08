@@ -1,1 +1,10 @@
-<h1>hello world</h1>
+<amplify-authenticator>
+    <ng-template
+      amplifySlot="authenticated"
+      let-user="user"
+      let-signOut="signOut"
+    >
+      <app-restaurants></app-restaurants>
+      <button (click)="signOut()">Sign Out</button>
+    </ng-template>
+  </amplify-authenticator>

@@ -10,6 +10,14 @@
       "StackName": "amplify-awslogindemo-dev-222952",
       "StackId": "arn:aws:cloudformation:us-west-2:275777938949:stack/amplify-awslogindemo-dev-222952/f6e05ed0-8ef3-11ed-8044-06d4726f9d25",
       "AmplifyAppId": "dg5bof13i57i3"
+    },
+    "categories": {
+      "auth": {
+        "awslogindemoe5daffd9": {}
+      },
+      "api": {
+        "awslogindemo": {}
+      }
     }
   }
 }

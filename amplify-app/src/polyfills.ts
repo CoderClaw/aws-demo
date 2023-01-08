@@ -1,5 +1,5 @@
-import 'core-js/es/typed-array';
-import 'core-js/es/object';
+// import 'core-js/es/typed-array'; //for internet explorer
+// import 'core-js/es/object'; //for internet explorer
 
 (window as any).global = window;
 (window as any).process = {
@@ -22,8 +22,8 @@ import 'core-js/es/object';
   };
 };
 
-// If using IgxIconService to register icons
-(global as any).XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+// // If using IgxIconService to register icons
+// (global as any).XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
 // Other optional depending on your application configuration
 (global as any).object = window.Object;
