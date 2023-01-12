@@ -1,0 +1,28 @@
+nav{
+    background-color: #19a881;
+    height: 4em;
+}
+
+h1{
+    font-size: 2em;
+    color: #dff1f5;
+    margin-left: 1em;
+}
+
+.signOut{
+    position: absolute;
+    top: .5em;
+    right: 2em;
+    background-color: #19a881;
+    border: 1px solid #19a881;
+    color: #dff1f5;
+    font-weight: 500;
+    font-size: larger;
+}
+.signOut:hover{
+    cursor: pointer;
+}
+
+.auth{
+    margin-top: 2em;
+}

@@ -1,10 +1,17 @@
-<amplify-authenticator>
+<nav>
+<h1>   Angular-Amplify Demo</h1>
+</nav>
+
+<br>
+<br>
+<amplify-authenticator class="auth">
     <ng-template
       amplifySlot="authenticated"
       let-user="user"
       let-signOut="signOut"
     >
+    <button (click)="signOut()" class="signOut">Sign Out</button>
       <app-restaurants></app-restaurants>
-      <button (click)="signOut()">Sign Out</button>
+      
     </ng-template>
   </amplify-authenticator>
